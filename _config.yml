@@ -13,9 +13,9 @@ title                    : "Taewoo Kim"
 title_separator          : "-"
 name                     : &name "Taewoo Kim"
 description              : &description "Senior Research Engineer at Qualcomm Korea, specializing in computational imaging, event-based vision, and generative AI."
-url                      : "https://intelpro.github.io" 
+url                      : "https://intelpro.github.io"
 baseurl                  : ""
-repository               : "taewookpro/taewook.github.io"
+repository               : "intelpro/intelpro.github.io"
 
 # Site Author
 author:
@@ -25,16 +25,16 @@ author:
   bio              : "Senior Research Engineer at Qualcomm Korea. Interested in computational imaging, event-based vision, and generative AI."
   location         : "Seoul, South Korea"
   employer         : "Qualcomm Korea"
-  email            : "taewook@example.com" 
+  email            : "taewook@example.com"
 
   # Academic websites
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=SzKw5oYAAAAJ"
 
   # Repositories
-  github           : "taewookpro"
+  github           : "intelpro"
 
   # Social media
-  linkedin         : "taewoo-kim"
+  linkedin         : "taewookim-a85270168"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
