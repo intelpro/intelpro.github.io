@@ -9,56 +9,64 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Education
+- **Ph.D. in Mechanical Engineering**, Korea Advanced Institute of Science and Technology (KAIST), Daejeon, South Korea  
+  *Mar. 2020 – Feb. 2025*  
+  Thesis: *Video Enhancement with Event Cameras*  
+  Advisor: Prof. Kuk-Jin Yoon  
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+- **M.S. in Robotics**, KAIST, Daejeon, South Korea  
+  *Feb. 2018 – Feb. 2020*  
+  Thesis: *Joint Unsupervised Disparity and Optical Flow Estimation of Stereo Videos with Loop Consistency*  
+  Advisor: Prof. Kuk-Jin Yoon  
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+- **B.S. in Mechanical Engineering**, Yonsei University, Seoul, South Korea  
+  *Feb. 2017*  
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+---
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Professional Experience
+- **Senior Research Engineer**, Camera Algorithm Design Team, Qualcomm Korea — *Feb. 2025 – Present*  
+  - Developing AI-driven camera ISP algorithms for **video denoising** and **HDR imaging**  
+  - Collaborating with U.S.-based camera R&D teams on computational photography systems  
+
+- **Camera Algorithm Intern**, Qualcomm Korea — *Apr. 2024 – Jul. 2024*  
+  - Designed motion estimation algorithms for **Event-based Vision Sensors (EVS)**  
+  - Applied ML-based techniques to enhance motion robustness in event-driven pipelines  
+
+- **Embedded Software Engineer**, HL Mando Global R&D Center — *Feb. 2017 – Dec. 2017*  
+  - Developed **real-time control algorithms** for automotive electronic brake systems  
+  - Conducted ECU testing and software prototyping for embedded controllers  
+
+---
+
+## Selected Publications
+- **Towards Real-world Event-guided Low-light Video Enhancement and Deblurring** — *ECCV 2024*  
+  Taewoo Kim, Jaeseok Jeong, Hoonhee Cho, Yuhwan Jeong, and Kuk-Jin Yoon
+
+- **Event-based Video Frame Interpolation with Cross-Modal Asymmetric Bidirectional Motion Fields** — *CVPR 2023 (Highlight)*  
+  Taewoo Kim, Yujeong Chae, Hyun-Kurl Jang, Kuk-Jin Yoon  
+
+- **Event-guided Deblurring of Unknown Exposure Time Videos** — *ECCV 2022 (Oral)*  
+  Taewoo Kim, Jeongmin Lee, Wang Lin, Kuk-Jin Yoon  
+
+[Full publication list →](/publications)
+
+---
+
+## Reviewer Services
+- **Conferences:** CVPR (2024–2026), ICCV (2025), ECCV (2024), WACV (2026), NeurIPS (2025), SIGGRAPH Asia (2024)  
+- **Journals:** IEEE TPAMI, IJCV, Neural Networks, RA-L, IJAT  
+
+---
+
+## Awards
+- CVPR 2023 Highlight Paper — *Top 2.5% of all submissions*  
+- ECCV 2022 Oral Presentation — *Top 2.7% of all submissions*  
+- IPIU 2023 Gold Prize — *Second Best Paper Award*  
+
+---
+
+## Contact
+📧 an625148@gmail.com  
+🔗 [Google Scholar](https://scholar.google.com/citations?user=SzKw5oYAAAAJ) | [LinkedIn](https://linkedin.com/in/taewookim-a85270168) | [GitHub](https://github.com/intelpro)
