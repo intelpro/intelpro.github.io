@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Taewoo Kim"
+title: "Welcome to Taewoo Kim’s homepage"
 author_profile: true
 redirect_from: 
   - /about/
