@@ -7,19 +7,19 @@ redirect_from:
   - /about.html
 ---
 
-### 🔬 Bio
+## 🔬 Bio
 Hi, I am a researcher and engineer specializing in **computer vision** and **machine learning**, with a focus on **computational photography**.  
-During my graduate studies, I conducted extensive research on **video frame interpolation**, **motion deblurring**, **low-light video enhancement**, and **HDR imaging**, leveraging **machine learning** and **event-based vision sensors** to tackle challenging problems in computational imaging.  
-My works have been published in top-tier conferences such as **CVPR**, **ICCV**, and **ECCV**, with several selected for **oral** and **highlight** presentations.  
-I am passionate about bridging **cutting-edge research** with **real-world applications**, particularly in **generative AI** and **imaging pipelines**.
+I am currently working at **Qualcomm** as a **Senior Research Engineer**, developing **AI-driven camera algorithms**.  
+During my Ph.D. at **KAIST**, I studied **computational photography using novel event-based sensors**, focusing on **low-light enhancement**, **deblurring**, and **video interpolation**.  
+I am passionate about bridging **cutting-edge research** with **real-world applications**, particularly in **generative AI** and **intelligent imaging systems**.
 
 ---
 
-### 📚 Research Interests
+## 📚 Research Interests
 1. **Computational Imaging and Machine Learning**  
-   - Learning-based video restoration and enhancement  
+   - Learning-based image/video restoration and enhancement  
    - Event-based and multi-sensor fusion for computational imaging  
-   - AI-driven ISP and camera pipeline design  
+   - AI-driven ISP and camera algorithm design  
 
 2. **Generative and Foundation Models**  
    - Generative models for image and video synthesis  
@@ -28,7 +28,7 @@ I am passionate about bridging **cutting-edge research** with **real-world appli
 
 ---
 
-### 🏆 Publications
+## 🏆 Publications
 
 - **Event-guided Unified Framework for Low-light Video Enhancement, Frame Interpolation, and Deblurring**  
   *Taewoo Kim*, Kuk-Jin Yoon  
@@ -72,19 +72,19 @@ I am passionate about bridging **cutting-edge research** with **real-world appli
 
 ---
 
-### 📄 Theses
+## 📄 Theses
 - **Video Enhancement with Event Cameras** — *Ph.D. Thesis*, KAIST, 2025  
 - **Joint Unsupervised Disparity and Optical Flow Estimation of Stereo Videos with Loop Consistency** — *M.S. Thesis*, KAIST, 2020
 - 
 ---
 
-### 🧠 Reviewer Services
+## 🧠 Reviewer Services
 - **Conferences:** CVPR (2024–2026), ICCV (2025), ECCV (2024), WACV (2026), NeurIPS (2025), SIGGRAPH Asia (2024)  
 - **Journals:** IEEE TPAMI, IJCV, Neural Networks, Robotics and Automation Letters (RA-L), IJAT  
 
 ---
 
-### 🏅 Awards
+## 🏅 Awards
 - **CVPR 2023 Highlight Paper** — Top 2.5%  
 - **ECCV 2022 Oral Presentation** — Top 2.7%  
 - **IPIU 2023 Gold Prize** — Second Best Paper  
