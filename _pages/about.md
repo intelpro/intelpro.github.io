@@ -15,34 +15,6 @@ I am passionate about bridging **cutting-edge research** with **real-world appli
 
 ---
 
-### 🎓 Education
-- **Ph.D., Mechanical Engineering**, Korea Advanced Institute of Science and Technology (KAIST), Daejeon, South Korea  
-  *Mar. 2020 – Feb. 2025*  
-  Thesis: *Video Enhancement with Event Cameras*  
-  Advisor: Prof. Kuk-Jin Yoon  
-
-- **M.S., Robotics**, KAIST, Daejeon, South Korea  
-  *Feb. 2018 – Feb. 2020*  
-  Thesis: *Joint Unsupervised Disparity and Optical Flow Estimation of Stereo Videos with Loop Consistency*  
-  Advisor: Prof. Kuk-Jin Yoon  
-
-- **B.S., Mechanical Engineering**, Yonsei University, Seoul, South Korea  
-  *Feb. 2017*  
-
----
-
-### 💼 Professional Experience
-- **Senior Research Engineer**, Camera Algorithm Design Team, Qualcomm Korea — *Feb. 2025 – Present*  
-  Working with U.S.-based teams on **machine learning–based ISP pipelines**, including **video denoising** and **HDR imaging**.
-
-- **Camera Algorithm Intern**, Qualcomm Korea — *Apr. 2024 – Jul. 2024*  
-  Developed **motion estimation algorithms** for Event-based Vision Sensors (EVS) and applied **ML techniques** to improve motion robustness.
-
-- **Embedded Software Engineer**, HL Mando Global R&D Center — *Feb. 2017 – Dec. 2017*  
-  Developed **real-time control algorithms** for automotive brake systems and supported **ECU testing** for electronic control modules.
-
----
-
 ### 📚 Research Interests
 1. **Computational Imaging and Machine Learning**  
    - Learning-based video restoration and enhancement  
