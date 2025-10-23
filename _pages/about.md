@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Taewoo Kim — Computational Imaging & Generative AI Research"
+title: "Taewoo Kim"
 author_profile: true
 redirect_from: 
   - /about/
