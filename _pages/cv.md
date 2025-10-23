@@ -10,17 +10,17 @@ redirect_from:
 {% include base_path %}
 
 ## Education
-- **Ph.D. in Mechanical Engineering**, KAIST, Daejeon, South Korea  
+- **Ph.D. in Mechanical Engineering**, KAIST, Daejeon, South Korea.
   *Mar. 2020 – Feb. 2025*  
   Thesis: *Video Enhancement with Event Cameras*  
   Advisor: Prof. Kuk-Jin Yoon  
 
-- **M.S. in Robotics**, KAIST, Daejeon, South Korea  
+- **M.S. in Robotics**, KAIST, Daejeon, South Korea.
   *Feb. 2018 – Feb. 2020*  
   Thesis: *Joint Unsupervised Disparity and Optical Flow Estimation of Stereo Videos with Loop Consistency*  
   Advisor: Prof. Kuk-Jin Yoon  
 
-- **B.S. in Mechanical Engineering**, Yonsei University, Seoul, South Korea  
+- **B.S. in Mechanical Engineering**, Yonsei University, Seoul, South Korea.
   *Feb. 2017*  
 
 ---
