@@ -63,7 +63,7 @@ I am passionate about bridging **cutting-edge research** with **real-world appli
   *IEEE/CVF International Conference on Computer Vision (ICCV)*, 2025  
 
 - **A Benchmark Dataset for Event-Guided Human Pose Estimation and Tracking in Extreme Conditions**  
-  *Hoonhee Cho*, *Taewoo Kim* (equal contribution), Yuwhan Jeong, Kuk-Jin Yoon  
+  *Hoonhee Cho*, *Taewoo Kim* , Yuwhan Jeong, Kuk-Jin Yoon  
   *Conference on Neural Information Processing Systems (NeurIPS)*, 2024  
 
 - **Towards Real-world Event-guided Low-light Video Enhancement and Deblurring**  
@@ -71,11 +71,11 @@ I am passionate about bridging **cutting-edge research** with **real-world appli
   *European Conference on Computer Vision (ECCV)*, 2024  
 
 - **CMTA: Cross-Modal Temporal Alignment for Event-guided Video Deblurring**  
-  *Taewoo Kim* (equal contribution), Hoonhee Cho, Kuk-Jin Yoon  
+  *Taewoo Kim*, Hoonhee Cho, Kuk-Jin Yoon  
   *European Conference on Computer Vision (ECCV)*, 2024  
 
 - **Frequency-aware Event-based Video Deblurring for Real-world Motion Blur**  
-  *Taewoo Kim* (equal contribution), Hoonhee Cho, Kuk-Jin Yoon  
+  *Taewoo Kim*, Hoonhee Cho, Kuk-Jin Yoon  
   *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2024  
 
 - **TTA-EVF: Test-Time Adaptation for Event-based Video Frame Interpolation via Reliable Pixel and Sample Estimation**  
