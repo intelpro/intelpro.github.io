@@ -13,7 +13,9 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
 
 - **Event-guided Unified Framework for Low-light Video Enhancement, Frame Interpolation, and Deblurring** — [🏠](https://openaccess.thecvf.com/content/ICCV2025/papers/Kim_Event-guided_Unified_Framework_for_Low-light_Video_Enhancement_Frame_Interpolation_and_ICCV_2025_paper.pdf)  
   Taewoo Kim, Kuk-Jin Yoon  
-  *IEEE/CVF International Conference on Computer Vision (ICCV)*, 2025  
+  *IEEE/CVF International Conference on Computer Vision (ICCV)*, 2025
+
+<br>
 
 - **A Benchmark Dataset for Event-Guided Human Pose Estimation and Tracking in Extreme Conditions** — [🏠](https://proceedings.neurips.cc/paper_files/paper/2024/file/f304e427cfe6bb762fe1bf18516c8a87-Paper-Datasets_and_Benchmarks_Track.pdf)  
   Hoonhee Cho, Taewoo Kim, Yuwhan Jeong, Kuk-Jin Yoon  
