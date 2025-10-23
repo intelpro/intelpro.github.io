@@ -72,7 +72,6 @@ Hi, I am a researcher and engineer specializing in **computer vision** and **mac
 ## 📄 Theses
 - **Video Enhancement with Event Cameras** — *Ph.D. Thesis*, KAIST, 2025  
 - **Joint Unsupervised Disparity and Optical Flow Estimation of Stereo Videos with Loop Consistency** — *M.S. Thesis*, KAIST, 2020
-- 
 ---
 
 ## 🧠 Reviewer Services
