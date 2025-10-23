@@ -27,42 +27,42 @@ Hi, I am a researcher and engineer specializing in computer vision and machine l
 
 ## 🏆 Publications
 
-- **Event-guided Unified Framework for Low-light Video Enhancement, Frame Interpolation, and Deblurring**  
-  *Taewoo Kim*, Kuk-Jin Yoon  
+- **Event-guided Unified Framework for Low-light Video Enhancement, Frame Interpolation, and Deblurring** [🏠](https://openaccess.thecvf.com/content/ICCV2025/papers/Kim_Event-guided_Unified_Framework_for_Low-light_Video_Enhancement_Frame_Interpolation_and_ICCV_2025_paper.pdf)  
+  Taewoo Kim, Kuk-Jin Yoon  
   *IEEE/CVF International Conference on Computer Vision (ICCV)*, 2025  
 
-- **A Benchmark Dataset for Event-Guided Human Pose Estimation and Tracking in Extreme Conditions**  
-  *Hoonhee Cho*, *Taewoo Kim*, Yuwhan Jeong, Kuk-Jin Yoon  
+- **A Benchmark Dataset for Event-Guided Human Pose Estimation and Tracking in Extreme Conditions** [🏠](URL_HERE)  
+  Hoonhee Cho, Taewoo Kim, Yuwhan Jeong, Kuk-Jin Yoon  
   *Conference on Neural Information Processing Systems (NeurIPS)*, 2024  
 
-- **Towards Real-world Event-guided Low-light Video Enhancement and Deblurring**  
-  *Taewoo Kim*, Jaeseok Jeong, Hoonhee Cho, Yuhwan Jeong, Kuk-Jin Yoon  
+- **Towards Real-world Event-guided Low-light Video Enhancement and Deblurring** [🏠](URL_HERE)  
+  Taewoo Kim, Jaeseok Jeong, Hoonhee Cho, Yuhwan Jeong, Kuk-Jin Yoon  
   *European Conference on Computer Vision (ECCV)*, 2024  
 
-- **CMTA: Cross-Modal Temporal Alignment for Event-guided Video Deblurring**  
-  *Taewoo Kim*, Hoonhee Cho, Kuk-Jin Yoon  
+- **CMTA: Cross-Modal Temporal Alignment for Event-guided Video Deblurring** [🏠](URL_HERE)  
+  Taewoo Kim, Hoonhee Cho, Kuk-Jin Yoon  
   *European Conference on Computer Vision (ECCV)*, 2024  
 
-- **Frequency-aware Event-based Video Deblurring for Real-world Motion Blur**  
-  *Taewoo Kim*, Hoonhee Cho, Kuk-Jin Yoon  
+- **Frequency-aware Event-based Video Deblurring for Real-world Motion Blur** [🏠](URL_HERE)  
+  Taewoo Kim, Hoonhee Cho, Kuk-Jin Yoon  
   *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2024  
 
-- **TTA-EVF: Test-Time Adaptation for Event-based Video Frame Interpolation via Reliable Pixel and Sample Estimation**  
-  *Hoonhee Cho*, *Taewoo Kim*, Yuhwan Jeong, Kuk-Jin Yoon  
+- **TTA-EVF: Test-Time Adaptation for Event-based Video Frame Interpolation via Reliable Pixel and Sample Estimation** [🏠](URL_HERE)  
+  Hoonhee Cho, Taewoo Kim, Yuhwan Jeong, Kuk-Jin Yoon  
   *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2024  
 
-- **Non-coaxial Event-Guided Motion Deblurring with Spatial Alignment**  
-  *Hoonhee Cho*, Yuhwan Jeong, *Taewoo Kim*, Kuk-Jin Yoon  
+- **Non-coaxial Event-Guided Motion Deblurring with Spatial Alignment** [🏠](URL_HERE)  
+  Hoonhee Cho, Yuhwan Jeong, Taewoo Kim, Kuk-Jin Yoon  
   *IEEE/CVF International Conference on Computer Vision (ICCV)*, 2023  
 
-- **Event-based Video Frame Interpolation with Cross-Modal Asymmetric Bidirectional Motion Fields**  
-  *Taewoo Kim*, Yujeong Chae, Hyun-Kurl Jang, Kuk-Jin Yoon  
+- **Event-based Video Frame Interpolation with Cross-Modal Asymmetric Bidirectional Motion Fields** [🏠](URL_HERE)  
+  Taewoo Kim, Yujeong Chae, Hyun-Kurl Jang, Kuk-Jin Yoon  
   *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2023 — **Highlight Paper (Top 2.5%)**
 
-- **Event-guided Deblurring of Unknown Exposure Time Videos**  
-  *Taewoo Kim*, Jeongmin Lee, Wang Lin, Kuk-Jin Yoon  
+- **Event-guided Deblurring of Unknown Exposure Time Videos** [🏠](URL_HERE)  
+  Taewoo Kim, Jeongmin Lee, Wang Lin, Kuk-Jin Yoon  
   *European Conference on Computer Vision (ECCV)*, 2022 — **Oral Presentation (Top 2.7%)**
 
-- **Loop-Net: Joint Unsupervised Disparity and Optical Flow Estimation of Stereo Videos with Spatiotemporal Loop Consistency**  
-  *Taewoo Kim*, Kwonyoung Ryu, Kyeongseob Song, Kuk-Jin Yoon  
+- **Loop-Net: Joint Unsupervised Disparity and Optical Flow Estimation of Stereo Videos with Spatiotemporal Loop Consistency** [🏠](URL_HERE)  
+  Taewoo Kim, Kwonyoung Ryu, Kyeongseob Song, Kuk-Jin Yoon  
   *IEEE Robotics and Automation Letters (RA-L)* & *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2020 — **Oral Presentation**
