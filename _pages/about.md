@@ -66,22 +66,3 @@ Hi, I am a researcher and engineer specializing in **computer vision** and **mac
 - **Loop-Net: Joint Unsupervised Disparity and Optical Flow Estimation of Stereo Videos with Spatiotemporal Loop Consistency**  
   *Taewoo Kim*, Kwonyoung Ryu, Kyeongseob Song, Kuk-Jin Yoon  
   *IEEE Robotics and Automation Letters (RA-L)* & *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2020 — **Oral Presentation**
-
----
-
-## 📄 Theses
-- **Video Enhancement with Event Cameras** — *Ph.D. Thesis*, KAIST, 2025  
-- **Joint Unsupervised Disparity and Optical Flow Estimation of Stereo Videos with Loop Consistency** — *M.S. Thesis*, KAIST, 2020
----
-
-## 🧠 Reviewer Services
-- **Conferences:** CVPR (2024–2026), ICCV (2025), ECCV (2024), WACV (2026), NeurIPS (2025), SIGGRAPH Asia (2024)  
-- **Journals:** IEEE TPAMI, IJCV, Neural Networks, Robotics and Automation Letters (RA-L), IJAT  
-
----
-
-## 🏅 Awards
-- **CVPR 2023 Highlight Paper** — Top 2.5%  
-- **ECCV 2022 Oral Presentation** — Top 2.7%  
-- **IPIU 2023 Gold Prize** — Second Best Paper  
-
