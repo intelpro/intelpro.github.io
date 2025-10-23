@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 ## Education
-- **Ph.D. in Mechanical Engineering**, Korea Advanced Institute of Science and Technology (KAIST), Daejeon, South Korea  
+- **Ph.D. in Mechanical Engineering**, KAIST, Daejeon, South Korea  
   *Mar. 2020 – Feb. 2025*  
   Thesis: *Video Enhancement with Event Cameras*  
   Advisor: Prof. Kuk-Jin Yoon  
