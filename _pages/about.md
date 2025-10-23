@@ -58,18 +58,6 @@ I am passionate about bridging **cutting-edge research** with **real-world appli
 
 ### 🏆 Publications
 
-#### 🥇 Selected (Awarded)
-- **Event-based Video Frame Interpolation with Cross-Modal Asymmetric Bidirectional Motion Fields**  
-  *Taewoo Kim*, Yujeong Chae, Hyun-Kurl Jang, Kuk-Jin Yoon  
-  *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2023 — **Highlight Paper (Top 2.5%)**
-
-- **Event-guided Deblurring of Unknown Exposure Time Videos**  
-  *Taewoo Kim*, Jeongmin Lee, Wang Lin, Kuk-Jin Yoon  
-  *European Conference on Computer Vision (ECCV)*, 2022 — **Oral Presentation (Top 2.7%)**
-
----
-
-#### 🧠 International Publications
 - **Event-guided Unified Framework for Low-light Video Enhancement, Frame Interpolation, and Deblurring**  
   *Taewoo Kim*, Kuk-Jin Yoon  
   *IEEE/CVF International Conference on Computer Vision (ICCV)*, 2025  
@@ -97,6 +85,14 @@ I am passionate about bridging **cutting-edge research** with **real-world appli
 - **Non-coaxial Event-Guided Motion Deblurring with Spatial Alignment**  
   *Hoonhee Cho*, Yuhwan Jeong, *Taewoo Kim*, Kuk-Jin Yoon  
   *IEEE/CVF International Conference on Computer Vision (ICCV)*, 2023  
+
+- **Event-based Video Frame Interpolation with Cross-Modal Asymmetric Bidirectional Motion Fields**  
+  *Taewoo Kim*, Yujeong Chae, Hyun-Kurl Jang, Kuk-Jin Yoon  
+  *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2023 — **Highlight Paper (Top 2.5%)**
+
+- **Event-guided Deblurring of Unknown Exposure Time Videos**  
+  *Taewoo Kim*, Jeongmin Lee, Wang Lin, Kuk-Jin Yoon  
+  *European Conference on Computer Vision (ECCV)*, 2022 — **Oral Presentation (Top 2.7%)**
 
 - **Loop-Net: Joint Unsupervised Disparity and Optical Flow Estimation of Stereo Videos with Spatiotemporal Loop Consistency**  
   *Taewoo Kim*, Kwonyoung Ryu, Kyeongseob Song, Kuk-Jin Yoon  
