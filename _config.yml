@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "dark" 
+site_theme               : "contrast" 
 title                    : "Taewoo Kim"
 title_separator          : "-"
 name                     : &name "Taewoo Kim"
