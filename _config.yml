@@ -20,7 +20,7 @@ repository               : "intelpro/intelpro.github.io"
 # Site Author
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "images/taewookim_photo.jpg"
   name             : "Taewoo Kim"
   bio              : "Senior Research Engineer at Qualcomm Korea. Interested in computational imaging, event-based vision, and generative AI."
   location         : "Seoul, South Korea"
