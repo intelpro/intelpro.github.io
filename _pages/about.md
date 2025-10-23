@@ -32,7 +32,7 @@ Hi, I am a researcher and engineer specializing in **computer vision** and **mac
   *IEEE/CVF International Conference on Computer Vision (ICCV)*, 2025  
 
 - **A Benchmark Dataset for Event-Guided Human Pose Estimation and Tracking in Extreme Conditions**  
-  *Hoonhee Cho*, *Taewoo Kim* , Yuwhan Jeong, Kuk-Jin Yoon  
+  *Hoonhee Cho*, *Taewoo Kim*, Yuwhan Jeong, Kuk-Jin Yoon  
   *Conference on Neural Information Processing Systems (NeurIPS)*, 2024  
 
 - **Towards Real-world Event-guided Low-light Video Enhancement and Deblurring**  
