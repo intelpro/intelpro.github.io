@@ -34,6 +34,21 @@
     font-weight: bold;
 }
 
+.educ-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: bold;
+}
+
+.educ-sub {
+  font-style: italic;
+  color: #555;
+  margin: 0;
+  padding: 0;
+}
+
+
   /* Optional: hover 시만 살짝 회색 */
   a:hover {
       color: #555;
@@ -75,29 +90,33 @@ My recent research interests include <b>Generative AI</b> (image/video generatio
 <b>computational photography</b>, and <b>multi-modal data fusion</b>.
 </p>
 
-
 <!-- EDUCATION -->
 <h2>Education</h2>
 
 <div class="edu-item">
-  <b>Ph.D. in Mechanical Engineering</b>, KAIST, Daejeon, South Korea <br>
-  <i>Mar. 2020 – Feb. 2025</i><br>
-  Thesis: <i>Video Enhancement with Event Cameras</i><br>
-  Advisor: Prof. Kuk-Jin Yoon
+  <div class="educ-entry">
+    <span><b>Ph.D. in Mechanical Engineering</b>, KAIST</span>
+    <span>Feb.2025</span>
+  </div>
+  <span class="educ-sub">- Thesis: Video Enhancement with Event Cameras</span><br>
+  <span class="educ-sub">- Advisor: Prof. Kuk-Jin Yoon</span>
 </div>
 
 <div class="edu-item">
-  <b>M.S. in Robotics</b>, KAIST, Daejeon, South Korea <br>
-  <i>Feb. 2018 – Feb. 2020</i><br>
-  Thesis: <i>Joint Unsupervised Disparity and Optical Flow Estimation of Stereo Videos with Loop Consistency</i><br>
-  Advisor: Prof. Kuk-Jin Yoon
+  <div class="educ-entry">
+    <span><b>M.S. in Robotics</b>, KAIST</span>
+    <span>Feb.2020</span>
+  </div>
+  <span class="educ-sub">- Thesis: Joint Unsupervised Disparity and Optical Flow Estimation of Stereo Videos with Loop Consistency</span><br>
+  <span class="educ-sub">- Advisor: Prof. Kuk-Jin Yoon</span>
 </div>
 
 <div class="edu-item">
-  <b>B.S. in Mechanical Engineering</b>, Yonsei University, Seoul, South Korea <br>
-  <i>Feb. 2017</i>
+  <div class="educ-entry">
+    <span><b>B.S. in Mechanical Engineering</b>, Yonsei University</span>
+    <span>Feb.2017</span>
+  </div>
 </div>
-
 
 <!-- PUBLICATIONS -->
 <h2>Publications</h2>
