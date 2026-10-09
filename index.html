@@ -105,7 +105,8 @@ a:focus-visible {
   font-size:16px;
   margin:0 0 16px}
 .hero .intro {
-  color:#47586c;
+  color:#2b3b4f;
+  font-weight:500;
   font-size:16.5px;
   max-width:605px;
   margin:0 0 23px;
@@ -151,6 +152,7 @@ a:focus-visible {
   flex:1}
 .copy {
   color:#425266;
+  font-weight:500;
   max-width:850px}
 .copy p {
   margin:0 0 14px}
@@ -202,10 +204,15 @@ a:focus-visible {
   gap:0}
 .timeline-item {
   display:grid;
-  grid-template-columns:minmax(0,1fr) auto;
-  gap:14px;
+  grid-template-columns:80px minmax(0,1fr) auto;
+  align-items:center;
+  gap:18px;
   padding:17px 0;
   border-bottom:1px solid var(--line)}
+.timeline-logo {
+  width:80px;
+  height:56px;
+  object-fit:contain}
 .timeline-item h3 {
   font-size:15px;
   line-height:1.4;
@@ -218,10 +225,6 @@ a:focus-visible {
   font-size:13px;
   color:var(--muted);
   white-space:nowrap}
-.two-col {
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:45px}
 .clean-list {
   padding:0;
   margin:0;
@@ -271,14 +274,16 @@ a:focus-visible {
   padding-top:34px}
 .section-heading {
   font-size:25px}
-.two-col {
-  grid-template-columns:1fr;
-  gap:24px}
 .timeline-item {
-  grid-template-columns:1fr;
-  gap:3px}
+  grid-template-columns:64px minmax(0,1fr);
+  gap:3px 14px}
+.timeline-logo {
+  width:64px;
+  height:44px;
+  grid-row:1 / span 2}
 .timeline-date {
-  grid-row:1}
+  grid-row:1;
+  grid-column:2}
 .contact {
   padding:22px}
 .paper h3 {
@@ -629,6 +634,7 @@ a:focus-visible {
     </h2>
     <div class="timeline">
      <div class="timeline-item">
+      <img alt="KAIST logo" class="timeline-logo" src="kaist-logo.png"/>
       <div>
        <h3>
         Ph.D. in Mechanical Engineering, KAIST
@@ -645,6 +651,7 @@ a:focus-visible {
       </span>
      </div>
      <div class="timeline-item">
+      <img alt="KAIST logo" class="timeline-logo" src="kaist-logo.png"/>
       <div>
        <h3>
         M.S. in Robotics, KAIST
@@ -661,6 +668,7 @@ a:focus-visible {
       </span>
      </div>
      <div class="timeline-item">
+      <img alt="Yonsei University logo" class="timeline-logo" src="yonsei-logo.png"/>
       <div>
        <h3>
         B.S. in Mechanical Engineering, Yonsei University
@@ -672,52 +680,25 @@ a:focus-visible {
      </div>
     </div>
    </section>
-   <div class="two-col">
-    <section class="section" id="awards">
-     <h2 class="section-heading">
-      Awards
-     </h2>
-     <ul class="clean-list">
-      <li>
-       <strong>
-        CVPR 2023 Highlight Paper
-       </strong>
-       &mdash; Top 2.5% of all submissions
-      </li>
-      <li>
-       <strong>
-        ECCV 2022 Oral Presentation
-       </strong>
-       &mdash; Top 2.7% of all submissions
-      </li>
-      <li>
-       <strong>
-        IPIU 2023 Gold Prize
-       </strong>
-       &mdash; Second Best Paper Award
-      </li>
-     </ul>
-    </section>
-    <section class="section" id="service">
-     <h2 class="section-heading">
-      Academic Service
-     </h2>
-     <ul class="clean-list">
-      <li>
-       <strong>
-        Conferences:
-       </strong>
-       CVPR, ICCV, ECCV, WACV, NeurIPS, SIGGRAPH, ICLR, AAAI.
-      </li>
-      <li>
-       <strong>
-        Journals:
-       </strong>
-       IEEE TPAMI, IJCV, Neural Networks, RA-L, IJAT
-      </li>
-     </ul>
-    </section>
-   </div>
+   <section class="section" id="service">
+    <h2 class="section-heading">
+     Academic Service
+    </h2>
+    <ul class="clean-list">
+     <li>
+      <strong>
+       Conferences:
+      </strong>
+      CVPR, ICCV, ECCV, WACV, NeurIPS, SIGGRAPH, ICLR, AAAI.
+     </li>
+     <li>
+      <strong>
+       Journals:
+      </strong>
+      IEEE TPAMI, IJCV, Neural Networks, RA-L, IJAT
+     </li>
+    </ul>
+   </section>
   </main>
   <footer class="footer">
    &copy; 2026 Taewoo Kim &middot; Built for curiosity and research
