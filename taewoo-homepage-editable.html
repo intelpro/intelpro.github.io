@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="Taewoo Kim &mdash; Computer Vision and Generative AI Researcher at INSAIT. Research, publications, education." name="description"/>
+  <title>
+   Taewoo Kim | Computer Vision / Generative AI Researcher
+  </title>
+  <style>
+   :root {
+  --ink:#172638;
+  --muted:#657387;
+  --accent:#176e9c;
+  --accent-dark:#12557a;
+  --line:#e5eaf0;
+  --surface:#f7f9fc;
+  --max:1010px}
+
+* {
+  box-sizing:border-box}
+html {
+  scroll-behavior:smooth}
+body {
+  margin:0;
+  background:#fff;
+  color:var(--ink);
+  font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  font-size:15.5px;
+  line-height:1.72;
+  -webkit-font-smoothing:antialiased}
+a {
+  color:var(--accent);
+  text-decoration:none}
+a:hover {
+  text-decoration:underline}
+a:focus-visible {
+  outline:3px solid #7bc3e9;
+  outline-offset:3px;
+  border-radius:3px}
+.shell {
+  max-width:var(--max);
+  margin:auto;
+  padding:0 30px}
+.site-nav {
+  border-bottom:1px solid var(--line);
+  background:rgba(255,255,255,.96)}
+.nav-inner {
+  min-height:77px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:30px}
+.wordmark {
+  font-size:19px;
+  font-weight:760;
+  letter-spacing:-.04em;
+  color:var(--ink)}
+.nav-links {
+  display:flex;
+  align-items:center;
+  gap:26px;
+  flex-wrap:wrap}
+.nav-links a {
+  font-size:13px;
+  font-weight:650;
+  color:#4f6075}
+.nav-links a:hover {
+  color:var(--accent)}
+.hero {
+  display:grid;
+  grid-template-columns:245px minmax(0,1fr);
+  gap:48px;
+  align-items:center;
+  padding:68px 0 57px;
+  border-bottom:1px solid var(--line)}
+.portrait {
+  width:245px;
+  aspect-ratio:3/4;
+  object-fit:cover;
+  object-position:center;
+  border-radius:12px;
+  display:block;
+  box-shadow:0 12px 30px rgba(21,52,80,.12)}
+.eyebrow {
+  text-transform:uppercase;
+  letter-spacing:.13em;
+  font-size:11px;
+  font-weight:800;
+  color:var(--accent);
+  margin:0 0 10px}
+.hero h1 {
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:clamp(35px,5vw,51px);
+  font-weight:700;
+  letter-spacing:-.045em;
+  line-height:1.13;
+  margin:0 0 14px}
+.hero .role {
+  font-weight:680;
+  font-size:17px;
+  margin:0 0 7px}
+.hero .credential {
+  color:var(--muted);
+  margin:0 0 16px}
+.hero .intro {
+  color:#47586c;
+  max-width:605px;
+  margin:0 0 23px;
+  line-height:1.75}
+.socials {
+  display:flex;
+  flex-wrap:wrap;
+  gap:9px}
+.socials a {
+  font-size:13px;
+  font-weight:650;
+  border:1px solid #dbe5ed;
+  border-radius:7px;
+  padding:7px 12px;
+  color:var(--accent-dark);
+  background:#fff}
+.socials a:hover {
+  background:#ecf6fc;
+  text-decoration:none;
+  border-color:#b7d7e9}
+.section {
+  padding-top:49px;
+  scroll-margin-top:30px}
+.section-heading {
+  font-family:Georgia,"Times New Roman",serif;
+  letter-spacing:-.025em;
+  font-size:28px;
+  font-weight:700;
+  margin:0 0 20px;
+  display:flex;
+  align-items:center;
+  gap:18px}
+.section-heading:after {
+  content:"";
+  height:1px;
+  background:var(--line);
+  flex:1}
+.copy {
+  color:#425266;
+  max-width:850px}
+.copy p {
+  margin:0 0 14px}
+.paper-list {
+  display:grid;
+  gap:0}
+.paper {
+  padding:22px 0;
+  border-bottom:1px solid var(--line)}
+.paper:first-child {
+  padding-top:4px}
+.pub-top {
+  display:flex;
+  align-items:center;
+  gap:12px;
+  flex-wrap:wrap;
+  margin-bottom:8px}
+.venue {
+  color:var(--accent-dark);
+  font-weight:750;
+  font-size:12px;
+  letter-spacing:.025em;
+  background:#eaf4fa;
+  border-radius:5px;
+  padding:3px 9px}
+.award {
+  font-size:12px;
+  font-weight:700;
+  color:#a45b27}
+.paper h3 {
+  margin:0 0 5px;
+  font-size:16.5px;
+  letter-spacing:-.012em;
+  line-height:1.45;
+  font-weight:730}
+.authors {
+  font-size:13.8px;
+  color:#59697a}
+.authors b {
+  color:var(--ink);
+  font-weight:750}
+.pub-actions {
+  margin-top:9px}
+.paper-link {
+  font-size:12.5px;
+  font-weight:750}
+.timeline {
+  display:grid;
+  gap:0}
+.timeline-item {
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  gap:14px;
+  padding:17px 0;
+  border-bottom:1px solid var(--line)}
+.timeline-item h3 {
+  font-size:15px;
+  line-height:1.4;
+  margin:0 0 5px}
+.timeline-item p {
+  margin:2px 0;
+  color:var(--muted);
+  font-size:13.5px}
+.timeline-date {
+  font-size:13px;
+  color:var(--muted);
+  white-space:nowrap}
+.two-col {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:45px}
+.clean-list {
+  padding:0;
+  margin:0;
+  list-style:none}
+.clean-list li {
+  margin-bottom:12px;
+  color:#47566a;
+  font-size:14px}
+.clean-list strong {
+  color:var(--ink)}
+.contact {
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:11px;
+  padding:26px 30px}
+.contact p {
+  margin:5px 0 0;
+  color:#4e5c6d}
+.footer {
+  margin-top:70px;
+  border-top:1px solid var(--line);
+  color:#8a96a5;
+  font-size:12px;
+  padding:27px 0 36px;
+  text-align:center}
+
+@media(max-width:700px) {
+  .shell {
+  padding:0 20px}
+.nav-inner {
+  align-items:flex-start;
+  padding-top:17px;
+  padding-bottom:17px;
+  flex-direction:column;
+  gap:12px}
+.nav-links {
+  gap:16px}
+.hero {
+  grid-template-columns:1fr;
+  gap:24px;
+  padding:38px 0}
+.portrait {
+  width:min(245px,72vw)}
+.hero h1 {
+  font-size:40px}
+.section {
+  padding-top:34px}
+.section-heading {
+  font-size:25px}
+.two-col {
+  grid-template-columns:1fr;
+  gap:24px}
+.timeline-item {
+  grid-template-columns:1fr;
+  gap:3px}
+.timeline-date {
+  grid-row:1}
+.contact {
+  padding:22px}
+.paper h3 {
+  font-size:15.5px}
+}
+
+@media(prefers-reduced-motion:reduce) {
+  html {
+  scroll-behavior:auto}
+}
+  </style>
+ </head>
+ <body>
+  <header class="site-nav">
+   <div class="shell nav-inner">
+    <a class="wordmark" href="#top">
+     Taewoo Kim
+     <span style="color:var(--accent)">
+      .
+     </span>
+    </a>
+    <nav aria-label="Main navigation" class="nav-links">
+     <a href="#about">
+      About
+     </a>
+     <a href="#publications">
+      Publications
+     </a>
+     <a href="#education">
+      Education
+     </a>
+     <a href="#service">
+      Service
+     </a>
+    </nav>
+   </div>
+  </header>
+  <main class="shell" id="top">
+   <section aria-label="Introduction" class="hero">
+    <img alt="Portrait of Taewoo Kim with city skyline in the background" class="portrait" src="taewoo-profile.jpg"/>
+    <div>
+     <p class="eyebrow">
+      Computer Vision &middot; Generative AI
+     </p>
+     <h1>
+      Taewoo Kim
+     </h1>
+     <p class="role">
+      Postdoctoral Researcher at INSAIT
+     </p>
+     <p class="credential">
+      Ph.D., KAIST &middot; Computer Vision Researcher
+     </p>
+     <p class="intro">
+      Working on visual generation and low-level vision, including image and video generation, editing, and restoration.
+     </p>
+     <div class="socials">
+      <a href="https://scholar.google.com/citations?user=SzKw5oYAAAAJ&amp;hl=en" rel="noopener noreferrer" target="_blank">
+       Google Scholar &nearrow;
+      </a>
+      <a href="https://github.com/intelpro" rel="noopener noreferrer" target="_blank">
+       GitHub &nearrow;
+      </a>
+      <a href="https://www.linkedin.com/in/taewookim-a85270168/" rel="noopener noreferrer" target="_blank">
+       LinkedIn &nearrow;
+      </a>
+     </div>
+    </div>
+   </section>
+   <section class="section" id="about">
+    <h2 class="section-heading">
+     About Me
+    </h2>
+    <div class="copy">
+     <p>
+      I am a Postdoctoral Researcher at INSAIT, focusing on computer vision and artificial intelligence. I received my Ph.D. from KAIST under the supervision of Prof. Kuk-Jin Yoon, where I worked on computer vision, machine learning, and computational imaging. Before joining INSAIT, I worked in the camera algorithm team at Qualcomm, developing ML-based computational imaging and camera systems.
+     </p>
+     <p>
+      My work focuses on generative AI (image and video generation), computational photography, and multimodal data fusion. I welcome collaborations and discussions&mdash;please feel free to reach out.
+     </p>
+    </div>
+   </section>
+   <section class="section" id="publications">
+    <h2 class="section-heading">
+     Publications
+    </h2>
+    <div class="paper-list">
+     <article class="paper">
+      <div class="pub-top">
+       <span class="venue">
+        ICCV 2025
+       </span>
+      </div>
+      <h3>
+       Event-guided Unified Framework for Low-light Video Enhancement, Frame Interpolation, and Deblurring
+      </h3>
+      <div class="authors">
+       <b>
+        Taewoo Kim
+       </b>
+       , Kuk-Jin Yoon
+      </div>
+      <div class="pub-actions">
+       <a class="paper-link" href="https://openaccess.thecvf.com/content/ICCV2025/papers/Kim_Event-guided_Unified_Framework_for_Low-light_Video_Enhancement_Frame_Interpolation_and_ICCV_2025_paper.pdf" rel="noopener noreferrer" target="_blank">
+        Paper
+        <span aria-hidden="true">
+         &nearrow;
+        </span>
+       </a>
+      </div>
+     </article>
+     <article class="paper">
+      <div class="pub-top">
+       <span class="venue">
+        NeurIPS 2024
+       </span>
+      </div>
+      <h3>
+       A Benchmark Dataset for Event-Guided Human Pose Estimation and Tracking in Extreme Conditions
+      </h3>
+      <div class="authors">
+       Hoonhee Cho*,
+       <b>
+        Taewoo Kim*
+       </b>
+       , Yuhwan Jeong, Kuk-Jin Yoon
+      </div>
+      <div class="pub-actions">
+       <a class="paper-link" href="https://proceedings.neurips.cc/paper_files/paper/2024/file/f304e427cfe6bb762fe1bf18516c8a87-Paper-Datasets_and_Benchmarks_Track.pdf" rel="noopener noreferrer" target="_blank">
+        Paper
+        <span aria-hidden="true">
+         &nearrow;
+        </span>
+       </a>
+      </div>
+     </article>
+     <article class="paper">
+      <div class="pub-top">
+       <span class="venue">
+        ECCV 2024
+       </span>
+      </div>
+      <h3>
+       Towards Real-world Event-guided Low-light Video Enhancement and Deblurring
+      </h3>
+      <div class="authors">
+       <b>
+        Taewoo Kim
+       </b>
+       , Jaeseok Jeong, Hoonhee Cho, Yuhwan Jeong, Kuk-Jin Yoon
+      </div>
+      <div class="pub-actions">
+       <a class="paper-link" href="https://arxiv.org/pdf/2408.14916" rel="noopener noreferrer" target="_blank">
+        Paper
+        <span aria-hidden="true">
+         &nearrow;
+        </span>
+       </a>
+      </div>
+     </article>
+     <article class="paper">
+      <div class="pub-top">
+       <span class="venue">
+        ECCV 2024
+       </span>
+      </div>
+      <h3>
+       CMTA: Cross-Modal Temporal Alignment for Event-guided Video Deblurring
+      </h3>
+      <div class="authors">
+       <b>
+        Taewoo Kim*
+       </b>
+       , Hoonhee Cho*, Kuk-Jin Yoon
+      </div>
+      <div class="pub-actions">
+       <a class="paper-link" href="https://arxiv.org/pdf/2408.14930" rel="noopener noreferrer" target="_blank">
+        Paper
+        <span aria-hidden="true">
+         &nearrow;
+        </span>
+       </a>
+      </div>
+     </article>
+     <article class="paper">
+      <div class="pub-top">
+       <span class="venue">
+        CVPR 2024
+       </span>
+      </div>
+      <h3>
+       Frequency-aware Event-based Video Deblurring for Real-world Motion Blur
+      </h3>
+      <div class="authors">
+       <b>
+        Taewoo Kim*
+       </b>
+       , Hoonhee Cho*, Kuk-Jin Yoon
+      </div>
+      <div class="pub-actions">
+       <a class="paper-link" href="https://openaccess.thecvf.com/content/CVPR2024/papers/Kim_Frequency-aware_Event-based_Video_Deblurring_for_Real-World_Motion_Blur_CVPR_2024_paper.pdf" rel="noopener noreferrer" target="_blank">
+        Paper
+        <span aria-hidden="true">
+         &nearrow;
+        </span>
+       </a>
+      </div>
+     </article>
+     <article class="paper">
+      <div class="pub-top">
+       <span class="venue">
+        CVPR 2024
+       </span>
+      </div>
+      <h3>
+       TTA-EVF: Test-Time Adaptation for Event-based Video Frame Interpolation via Reliable Pixel and Sample Estimation
+      </h3>
+      <div class="authors">
+       Hoonhee Cho,
+       <b>
+        Taewoo Kim
+       </b>
+       , Yuhwan Jeong, Kuk-Jin Yoon
+      </div>
+      <div class="pub-actions">
+       <a class="paper-link" href="https://openaccess.thecvf.com/content/CVPR2024/papers/Cho_TTA-EVF_Test-Time_Adaptation_for_Event-based_Video_Frame_Interpolation_via_Reliable_CVPR_2024_paper.pdf" rel="noopener noreferrer" target="_blank">
+        Paper
+        <span aria-hidden="true">
+         &nearrow;
+        </span>
+       </a>
+      </div>
+     </article>
+     <article class="paper">
+      <div class="pub-top">
+       <span class="venue">
+        ICCV 2023
+       </span>
+      </div>
+      <h3>
+       Non-coaxial Event-Guided Motion Deblurring with Spatial Alignment
+      </h3>
+      <div class="authors">
+       Hoonhee Cho, Yuhwan Jeong,
+       <b>
+        Taewoo Kim
+       </b>
+       , Kuk-Jin Yoon
+      </div>
+      <div class="pub-actions">
+       <a class="paper-link" href="https://openaccess.thecvf.com/content/ICCV2023/papers/Cho_Non-Coaxial_Event-Guided_Motion_Deblurring_with_Spatial_Alignment_ICCV_2023_paper.pdf" rel="noopener noreferrer" target="_blank">
+        Paper
+        <span aria-hidden="true">
+         &nearrow;
+        </span>
+       </a>
+      </div>
+     </article>
+     <article class="paper">
+      <div class="pub-top">
+       <span class="venue">
+        CVPR 2023
+       </span>
+       <span class="award">
+        &starf; Highlight Paper (Top 2.5%)
+       </span>
+      </div>
+      <h3>
+       Event-based Video Frame Interpolation with Cross-Modal Asymmetric Bidirectional Motion Fields
+      </h3>
+      <div class="authors">
+       <b>
+        Taewoo Kim
+       </b>
+       , Yujeong Chae, Hyun-Kurl Jang, Kuk-Jin Yoon
+      </div>
+      <div class="pub-actions">
+       <a class="paper-link" href="https://arxiv.org/pdf/2502.13716" rel="noopener noreferrer" target="_blank">
+        Paper
+        <span aria-hidden="true">
+         &nearrow;
+        </span>
+       </a>
+      </div>
+     </article>
+     <article class="paper">
+      <div class="pub-top">
+       <span class="venue">
+        ECCV 2022
+       </span>
+       <span class="award">
+        &starf; Oral Presentation (Top 2.7%)
+       </span>
+      </div>
+      <h3>
+       Event-guided Deblurring of Unknown Exposure Time Videos
+      </h3>
+      <div class="authors">
+       <b>
+        Taewoo Kim
+       </b>
+       , Jeongmin Lee, Wang Lin, Kuk-Jin Yoon
+      </div>
+      <div class="pub-actions">
+       <a class="paper-link" href="https://arxiv.org/abs/2112.06988" rel="noopener noreferrer" target="_blank">
+        Paper
+        <span aria-hidden="true">
+         &nearrow;
+        </span>
+       </a>
+      </div>
+     </article>
+     <article class="paper">
+      <div class="pub-top">
+       <span class="venue">
+        RA-L + IROS 2020
+       </span>
+       <span class="award">
+        &starf; Oral Presentation
+       </span>
+      </div>
+      <h3>
+       Loop-Net: Joint Unsupervised Disparity and Optical Flow Estimation of Stereo Videos with Spatiotemporal Loop Consistency
+      </h3>
+      <div class="authors">
+       <b>
+        Taewoo Kim
+       </b>
+       , Kwonyoung Ryu, Kyeongseob Song, Kuk-Jin Yoon
+      </div>
+      <div class="pub-actions">
+       <a class="paper-link" href="https://ieeexplore.ieee.org/document/9140315" rel="noopener noreferrer" target="_blank">
+        Paper
+        <span aria-hidden="true">
+         &nearrow;
+        </span>
+       </a>
+      </div>
+     </article>
+    </div>
+   </section>
+   <section class="section" id="education">
+    <h2 class="section-heading">
+     Education
+    </h2>
+    <div class="timeline">
+     <div class="timeline-item">
+      <div>
+       <h3>
+        Ph.D. in Mechanical Engineering, KAIST
+       </h3>
+       <p>
+        Thesis: Video Enhancement with Event Cameras
+       </p>
+       <p>
+        Advisor: Prof. Kuk-Jin Yoon
+       </p>
+      </div>
+      <span class="timeline-date">
+       Feb. 2025
+      </span>
+     </div>
+     <div class="timeline-item">
+      <div>
+       <h3>
+        M.S. in Robotics, KAIST
+       </h3>
+       <p>
+        Thesis: Joint Unsupervised Disparity and Optical Flow Estimation
+       </p>
+       <p>
+        Advisor: Prof. Kuk-Jin Yoon
+       </p>
+      </div>
+      <span class="timeline-date">
+       Feb. 2020
+      </span>
+     </div>
+     <div class="timeline-item">
+      <div>
+       <h3>
+        B.S. in Mechanical Engineering, Yonsei University
+       </h3>
+      </div>
+      <span class="timeline-date">
+       Feb. 2017
+      </span>
+     </div>
+    </div>
+   </section>
+   <div class="two-col">
+    <section class="section" id="awards">
+     <h2 class="section-heading">
+      Awards
+     </h2>
+     <ul class="clean-list">
+      <li>
+       <strong>
+        CVPR 2023 Highlight Paper
+       </strong>
+       &mdash; Top 2.5% of all submissions
+      </li>
+      <li>
+       <strong>
+        ECCV 2022 Oral Presentation
+       </strong>
+       &mdash; Top 2.7% of all submissions
+      </li>
+      <li>
+       <strong>
+        IPIU 2023 Gold Prize
+       </strong>
+       &mdash; Second Best Paper Award
+      </li>
+     </ul>
+    </section>
+    <section class="section" id="service">
+     <h2 class="section-heading">
+      Academic Service
+     </h2>
+     <ul class="clean-list">
+      <li>
+       <strong>
+        Conferences:
+       </strong>
+       CVPR, ICCV, ECCV, WACV, NeurIPS, SIGGRAPH, ICLR, AAAI.
+      </li>
+      <li>
+       <strong>
+        Journals:
+       </strong>
+       IEEE TPAMI, IJCV, Neural Networks, RA-L, IJAT
+      </li>
+     </ul>
+    </section>
+   </div>
+  </main>
+  <footer class="footer">
+   &copy; 2026 Taewoo Kim &middot; Built for curiosity and research
+  </footer>
+ </body>
+</html>
